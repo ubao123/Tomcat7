@@ -1,4 +1,4 @@
-## Tomcat7
+## CentOS7+JDK7(Oracle)+Tomcat7
 以 CentOS7:latest 为基础镜像，安装 JDK1.7.0_80 和 Tomcat7.0.82，部署 JAVA 环境
 
 时区：中国-上海
