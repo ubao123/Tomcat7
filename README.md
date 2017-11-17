@@ -1,5 +1,5 @@
 ## CentOS7+JDK7(Oracle)+Tomcat7
-以 CentOS7:latest 为基础镜像，安装 JDK1.7.0_80 和 Tomcat7.0.82，部署 JAVA 环境
+以 CentOS7:latest 为基础镜像，安装 JDK1.7.0_80 和 Tomcat7.0.82，部署 java_web 环境
 
 时区：中国-上海
 
@@ -31,3 +31,5 @@ CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/apr/lib
 JAVA_OPTS="-server -Xms1024m -Xmx1024m -Xss512K -XX:PermSize=128m -XX:MaxPermSize=256m -Djava.awt.headless=true"
 ```
+
+**详细请看Dockerfile文件**
