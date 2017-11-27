@@ -11,7 +11,7 @@ Tomcat 安装目录：/opt/tomcat
 
 JDK 安装目录：/opt/jdk
 
-且该镜像整合了自带的 tomcat-native，并以普通用户 “tomcat” 运行
+且该镜像整合了自带的 tomcat-native，并以普通用户 “nobody” 运行
 
 **使用方法：**
 
